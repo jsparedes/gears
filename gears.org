@@ -1,0 +1,107 @@
+#+Title: Engranajes
+#+Author: Jorge S. Paredes Merino
+#+Email: js.paredes.merino@gmail.com
+# #+Date: [2016-03-28 Mon]
+#+LANGUAGE: es
+#+OPTIONS: H:2 toc:1 email:1 timestamp:nil
+
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+REVEAL_THEME: white
+#+REVEAL_TRANS: linear
+
+* Que no se va a ver
+#+attr_html: :width 65%
+[[https://upload.wikimedia.org/wikipedia/commons/3/35/Partes_engranaje.png]]
+
+#+ATTR_REVEAL: :frag roll-in
+- Diseño
+#+ATTR_REVEAL: :frag roll-in
+- Cálculos
+
+* Que se va a ver
+#+ATTR_REVEAL: :frag roll-in
+  - Nombres de piezas, elementos.
+
+#+ATTR_REVEAL: :frag roll-in
+  - Intuiciones relacionadas a los engranajes, de manera informal.
+    
+* Tipos de engranajes
+Hay de diversos formas, tamaños ...
+[[http://www.sdp-si.com/products/productimages/Gear-types.jpg]]
+
+#+ATTR_REVEAL: :frag roll-in highlight-blue
+Podriamos agruparlos por sus ejes:
+#+ATTR_REVEAL: :frag roll-in
+- Ejes paralelos
+#+ATTR_REVEAL: :frag roll-in
+- Ejes perpendiculares
+
+** Ejes paralelos
+[[http://www.visualdictionaryonline.com/images/science/physics-mechanics/gearing-systems/spur-gear.jpg]]
+
+** Ejes perpendiculares
+[[http://www.visualdictionaryonline.com/images/science/physics-mechanics/gearing-systems/worm-gear.jpg]]
+[[http://www.competentforging.com/images/HypoidGears3.jpg]]
+
+
+* Preguntas
+** ¿Que engranaje rota más rápido?
+[[https://d2vlcm61l7u1fs.cloudfront.net/media%2Fc19%2Fc19fa01b-609c-43aa-87c9-b36b47d1feaa%2Fphp3ltLap.png]]
+
+#+ATTR_REVEAL: :frag roll-in
+Rpta: Los 2 engranajes giran a las mismas revoluciones por minuto porque están conectados por el mismo eje.
+
+** ¿Cuántos ejes de rotación observa?
+[[http://m.c.lnkd.licdn.com/mpr/mpr/AAEAAQAAAAAAAAKRAAAAJDNkZThmNWY0LTY4ZDItNGMxZi05NWI5LWQ4ODQ0Yzk4ZTcwMQ.jpg]]
+
+#+ATTR_REVEAL: :frag roll-in
+Rpta: 3 ejes
+
+* Elementos a usar
+** Engranajes dientes rectos
+#+REVEAL_HTML: <div class="column" style="float:left; width: 60%">
+[[https://upload.wikimedia.org/wikipedia/commons/8/8a/Gear_reducer.gif]]
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; width: 40%">
+[[http://bestanimations.com/Science/Gears/gold-brass-gear-cogs-animated-5.gif]]
+[[https://upload.wikimedia.org/wikipedia/commons/c/c2/Involute_wheel.gif]]
+#+REVEAL_HTML: </div>
+
+** Sinfin
+[[http://www.clker.com/cliparts/7/0/7/d/1245695975923409453johnny_automatic_worm_gear.svg.hi.png]]
+[[http://bestanimations.com/Science/Gears/worm-gear-animation-lego.gif]]
+
+
+** Cremallera
+[[http://bestanimations.com/Science/Gears/gear-cog-on-track-animation.gif]]
+[[http://bestanimations.com/Science/Gears/lego-gears-animation-2.gif]]
+
+* Reductores de velocidad
+[[https://upload.wikimedia.org/wikipedia/commons/6/67/Pocketwatch_cutaway_drawing.jpg]]
+
+** Paralelamente
+#+ATTR_HTML: :width 70%
+[[http://www.rcnightmare.com/wp-content/uploads/2010/11/transmission.jpg]]
+[[http://geargenerator.com/]]
+
+** Perpendicularmente
+[[http://i01.i.aliimg.com/img/pb/696/087/475/475087696_834.jpg]]
+
+# * Opcional
+# #+ATTR_HTML: :controls controls :width 350
+# #+BEGIN_video
+# #+HTML: <iframe src="https://www.youtube.com/watch?v=1vJadyRwoZ0">
+# Your browser does not support the video tag.
+# #+END_video
+
+# http://computeraideddesignguide.com/wp-content/uploads/2014/05/Planetary-gears.gif
+# https://sites.google.com/site/roboticarusty/home/lego-we-doo
+# http://site.petitrc.com/Tech/UnderstandGearingRatio/
+
+# | Plataforma | Distribución              |
+# |------------+---------------------------|
+# | Unix       | Tex Live                  |
+# | Windows    | MikTeX                    |
+# | Windows    | proTeXt, basado en MiKTeX |
+# | Mac OS     | MacTeX                    |
